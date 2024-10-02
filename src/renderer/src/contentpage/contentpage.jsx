@@ -5,12 +5,15 @@ import Sidebr from '../sidebr/sidebr';
 
 function ContentPage() {
   return (
+
     <>
-    <Headr></Headr>
-    <Sidebr></Sidebr>
-    <div className="content-page">
-    {/* Add routes or additional content here */}
-  </div></>
+    <div className="app-container">
+      <Headr />
+      <Sidebr />
+      <div className="viewpage-content">
+       
+      </div>
+    </div></>
     
   );
 }

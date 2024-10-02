@@ -1,10 +1,17 @@
-/* Content area styling */
-.content-page {
-    margin-top: 60px; /* Space for the fixed header */
-    margin-left: 250px; /* Space for the fixed sidebar */
-    padding: 20px;
-    background-color: #e0f7fa; /* Light cyan background */
-    height: calc(100vh - 60px); /* Full height minus the header */
-    overflow-y: auto; /* Allow vertical scrolling if needed */
-    box-sizing: border-box; /* Ensure padding is included in the element's dimensions */
+/* Ensure the app container fills the entire viewport */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
 }
+
+/* Adjust the viewpage content to align with the sidebar and header */
+.viewpage-content {
+    margin-left: 250px; /* Sidebar width */
+    margin-top: 60px;   /* Header height */
+    flex-grow: 1;       /* Take remaining space */
+
+}
+
+

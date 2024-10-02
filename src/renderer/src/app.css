@@ -1,0 +1,15 @@
+/* app.css */
+html, body {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0;    /* Remove default margin */
+}
+
+.app-container {
+    height: 100vh; /* Full height */
+    width: 100vw;  /* Full width */
+    background-image: url('../src/contentpage/prism_bg2.jpg'); /* Change to your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    overflow: hidden; /* Prevent scrolling */
+}
