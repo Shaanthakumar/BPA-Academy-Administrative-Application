@@ -1,0 +1,10 @@
+/* Content area styling */
+.content-page {
+    margin-top: 60px; /* Space for the fixed header */
+    margin-left: 250px; /* Space for the fixed sidebar */
+    padding: 20px;
+    background-color: #e0f7fa; /* Light cyan background */
+    height: calc(100vh - 60px); /* Full height minus the header */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+    box-sizing: border-box; /* Ensure padding is included in the element's dimensions */
+}

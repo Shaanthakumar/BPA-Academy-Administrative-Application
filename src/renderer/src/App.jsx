@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import Headr from './components/headr';
-import './assets/app.css';
-import Viewpage from './components/viewpage';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import ViewpageContent from './contentpage/contentpage';
+
 function App() {
   return (
-    <>
-      <Headr></Headr>
-      <Viewpage></Viewpage>
+    <><ViewpageContent></ViewpageContent>
     </>
+    
   );
 }
 
